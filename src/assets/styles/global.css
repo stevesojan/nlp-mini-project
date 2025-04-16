@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+  }
+  
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-200;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-[#E74C3C] rounded-full hover:bg-[#ff6b5b];
+  }
+}
