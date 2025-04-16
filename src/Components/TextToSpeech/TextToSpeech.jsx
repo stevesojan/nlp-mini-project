@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { VolumeUp, StopCircle } from 'react-bootstrap-icons';
-import useSpeechSynthesis from '../../hooks/useSpeechSynthesis.jsx';
+import useSpeechSynthesis from '../../hooks/usespeechsynthesis.js';
 import { toast } from 'react-toastify';
 
 const TextToSpeech = () => {
